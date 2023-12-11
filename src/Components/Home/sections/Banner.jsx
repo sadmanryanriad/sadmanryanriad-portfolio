@@ -26,7 +26,7 @@ const Banner = () => {
                 experiences.
               </p>
               <a href={resume} download="Resume - Sadman Ryan Riad.pdf">
-                <button className="btn bg-orange-500 btn-sm sm:btn-md  text-white border-none">
+                <button className="btn bg-orange-500 text-black btn-sm sm:btn-md border-none">
                   Download Resume
                 </button>
               </a>

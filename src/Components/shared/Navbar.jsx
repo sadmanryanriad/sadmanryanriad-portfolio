@@ -64,10 +64,13 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden font-semibold lg:flex">
           <ul className="menu menu-horizontal px-1 text-xl">{navItems}</ul>
+          <div className="text-xl sm:text-2xl">
+            <ThemeButton></ThemeButton>
+          </div>
         </div>
         <div className="navbar-end flex gap-6 md:gap-12 items-center">
           <div className="text-xl sm:text-2xl">
-            <ThemeButton></ThemeButton>
+            {/* <ThemeButton></ThemeButton> */}
           </div>
         </div>
       </div>
