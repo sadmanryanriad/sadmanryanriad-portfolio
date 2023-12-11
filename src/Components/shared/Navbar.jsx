@@ -60,9 +60,9 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <Link to={"/"}>
+          {/* <Link to={"/"}>
             <a className="btn btn-ghost normal-case text-2xl">Home</a>
-          </Link>
+          </Link> */}
         </div>
         <div className="navbar-center hidden font-semibold lg:flex">
           <ul className="menu menu-horizontal px-1 text-xl">{navItems}</ul>
