@@ -3,7 +3,7 @@ import Navbar from "../shared/Navbar";
 
 const App = () => {
     return (
-        <div className=" dark:bg-gray-700 dark:text-white">
+        <div className=" dark:bg-gray-700 dark:text-slate-300">
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>

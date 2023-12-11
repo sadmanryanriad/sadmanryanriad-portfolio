@@ -1,6 +1,6 @@
 import bannerImage2 from "../../../assets/technology-785742_1920.jpg";
 import Container2xl from "../../mini-components/Container2xl";
-import resume from "../../../../public/Resume - Sadman Ryan Riad.pdf";
+import resume from "/Resume - Sadman Ryan Riad.pdf";
 
 const Banner = () => {
   return (
