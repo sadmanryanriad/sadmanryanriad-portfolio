@@ -1,5 +1,6 @@
 import bannerImage2 from "../../../assets/technology-785742_1920.jpg";
 import Container2xl from "../../mini-components/Container2xl";
+import resume from "../../../../public/Resume - Sadman Ryan Riad.pdf";
 
 const Banner = () => {
   return (
@@ -15,15 +16,20 @@ const Banner = () => {
           <div className="hero-content text-center text-base-300">
             <div className="w-full">
               <h1 className="mb-5 text-5xl font-bold">
-                Hi, I am <span className="font-semibold text-orange-600">Sadman Ryan Riad</span>
+                Hi, I am{" "}
+                <span className="font-semibold text-orange-600">
+                  Sadman Ryan Riad
+                </span>
               </h1>
               <p className="mb-5 font-semibold md:text-xl">
-              A passionate MERN stack developer, creating awesome web
+                A passionate MERN stack developer, creating awesome web
                 experiences.
               </p>
-              <button className="btn bg-orange-500 btn-sm sm:btn-md  text-white border-none">
-                Download Resume
-              </button>
+              <a href={resume} download="Resume - Sadman Ryan Riad.pdf">
+                <button className="btn bg-orange-500 btn-sm sm:btn-md  text-white border-none">
+                  Download Resume
+                </button>
+              </a>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div
       id="about-me"
-      className="bg-gray-100  dark:bg-gray-700  sm:p-4  pt-8 md:pt-12"
+      className="dark:bg-gray-700  sm:p-4  pt-8 md:pt-12"
     >
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center text-center p-5">
         <div className="md:w-3/5 sm:p-5 text-gray-700">
