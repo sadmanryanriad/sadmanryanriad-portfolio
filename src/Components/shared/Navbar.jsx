@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import ThemeButton from "../mini-components/ThemeButton";
 import { HashLink } from "react-router-hash-link";
 import Container2xl from "../mini-components/Container2xl";
