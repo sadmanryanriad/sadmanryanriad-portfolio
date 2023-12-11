@@ -4,6 +4,7 @@ import useScrollToTop from "../../Hooks/useScrollToTop";
 import { BsArrowUpCircle } from "react-icons/bs";
 import Footer from "../shared/Footer";
 import MySkills from "../Home/sections/skills/MySkills";
+import ContactSection from "../Home/sections/contacts/ContactSection";
 
 const Home = () => {
   const { isScrollVisible, scrollToTop } = useScrollToTop(200);
@@ -13,6 +14,7 @@ const Home = () => {
       <Banner></Banner>
       <AboutMe></AboutMe>
       <MySkills></MySkills>
+      <ContactSection></ContactSection>
       <Footer></Footer>
 
       {/* Render the scroll-to-top button when showScrollButton is true */}
