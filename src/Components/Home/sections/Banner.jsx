@@ -1,6 +1,7 @@
 import bannerImage2 from "../../../assets/technology-785742_1920.jpg";
 import Container2xl from "../../mini-components/Container2xl";
 import resume from "/Resume - Sadman Ryan Riad.pdf";
+import { FaDownload } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -27,7 +28,7 @@ const Banner = () => {
               </p>
               <a href={resume} download="Resume - Sadman Ryan Riad.pdf">
                 <button className="btn bg-orange-500 text-black btn-sm sm:btn-md border-none">
-                  Download Resume
+                  Resume <FaDownload />
                 </button>
               </a>
             </div>
