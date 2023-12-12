@@ -22,10 +22,10 @@ const SingleCard = ({
             </p>
             {/* button  */}
               <a href={githubLink ? githubLink : ""} target="blank">
-              <button className="btn btn-active btn-neutral mr-3 transform transition-transform hover:scale-105">GitHub<FaGithub className="text-xl"></FaGithub></button>
+              <button className="btn btn-active btn-neutral mr-3 hover:bg-gray-200 hover:text-gray-700 transform transition-transform hover:scale-105">GitHub<FaGithub className="text-xl"></FaGithub></button>
               </a>
               <a href={liveLink ? liveLink : ""} target="blank">
-              <button className="btn btn-active bg-orange-400 border-none transform transition-transform hover:scale-105">Live<FaExternalLinkAlt className=""></FaExternalLinkAlt></button>
+              <button className="btn bg-orange-400 border-none transform transition-transform hover:scale-105">Live<FaExternalLinkAlt className=""></FaExternalLinkAlt></button>
               </a>
           </div>
         </div>
