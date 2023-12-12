@@ -1,4 +1,4 @@
-import { FaPhone, FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaPhone, FaWhatsapp, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 const Contacts = () => {
   return (
@@ -20,6 +20,15 @@ const Contacts = () => {
             className="text-2xl dark:text-gray-300 hover:text-orange-400  dark:hover:text-orange-400  flex items-center mb-3"
           >
             <FaWhatsapp className="mr-3 text-4xl" /> WhatsApp: +8801760995739
+          </a>
+        </div>
+        <div className="mx-5">
+          <a
+            href="https://www.linkedin.com/in/sadmanryanriad/"
+            target="blank"
+            className="text-2xl dark:text-gray-300 hover:text-orange-400  dark:hover:text-orange-400  flex items-center mb-3"
+          >
+            <FaLinkedin className="mr-3 md:text-4xl" /> LinkedIn
           </a>
         </div>
         <div className="mx-5">
