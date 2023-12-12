@@ -8,7 +8,7 @@ const handleSubmit = (e) =>{
 
 const ContactForm = () => {
     return (
-      <div className="text-center flex-1">
+      <div data-aos="zoom-in-up" data-aos-once data-aos-duration="1000" className="text-center flex-1">
         <div className="flex items-center justify-center px-5">
           <div className="mx-auto w-full max-w-lg">
             <form onSubmit={handleSubmit}>

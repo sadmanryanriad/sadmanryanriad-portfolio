@@ -10,7 +10,7 @@ const SingleCard = ({
     liveLink
   }) => {
     return (
-      <div className="p-5">
+      <div data-aos="zoom-in-up" data-aos-once className="p-5">
         <div className="border overflow-hidden rounded-lg shadow-1 duration-300 hover:shadow-3 dark:bg-dark-2 dark:shadow-card dark:hover:shadow-3">
           <img src={image} alt="" className="w-full" />
           <div className="p-8 text-center sm:p-9 md:p-7 xl:p-9">
