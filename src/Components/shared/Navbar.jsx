@@ -15,6 +15,11 @@ const Navbar = () => {
           <a>Skills</a>
         </li>
       </HashLink>
+      <HashLink smooth to={"#education"}>
+        <li>
+          <a>Education</a>
+        </li>
+      </HashLink>
       <HashLink smooth to={"#contact-me"}>
         <li>
           <a>Contact-Me</a>
