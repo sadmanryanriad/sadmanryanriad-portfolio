@@ -6,6 +6,7 @@ import Footer from "../shared/Footer";
 import MySkills from "../Home/sections/skills/MySkills";
 import ContactSection from "../Home/sections/contacts/ContactSection";
 import EducationTimeline from "../Home/sections/education/EducationTimeline";
+import ProjectSection from "../Home/sections/projects/ProjectSection";
 
 const Home = () => {
   const { isScrollVisible, scrollToTop } = useScrollToTop(200);
@@ -15,6 +16,7 @@ const Home = () => {
       <Banner></Banner>
       <AboutMe></AboutMe>
       <MySkills></MySkills>
+      <ProjectSection></ProjectSection>
       <EducationTimeline></EducationTimeline>
       <ContactSection></ContactSection>
       <Footer></Footer>
